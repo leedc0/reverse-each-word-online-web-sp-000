@@ -9,5 +9,5 @@ def reverse_each_word(sentence)
   # and return each index in reverse
   array = words.collect { |word| word.reverse }
   # join array indexes with space in between
-  arry.join(" ")
+  array.join(" ")
 end
